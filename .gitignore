@@ -42,3 +42,26 @@ next-env.d.ts
 
 # clerk configuration (can include secrets)
 /.clerk/
+
+
+# -----> FOR CHATBOT 
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secret files - VERY IMPORTANT
+*.json
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
